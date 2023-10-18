@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 556px;
+    height: 500px;
+}
+
+.banner2-left, .banner2-right{
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 630px;
+    height: 500px;
+}
+
+.banner2-left{
+    margin-left: 5px;
+}
+
+.banner2-right{
+    margin-right: 5px;
+}
+
+.banner, .banner2-left , .banner2-right{
+    display: inline-block;
+}
+
+.historia-artista{
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(241, 12, 12, 0.658);
+    font-style: italic;
+    border: 2px;
+    width: 1820px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.imagem-banda{
+    border-radius: 20px;
+}
+
+.discografia{
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    background-color: rgba(241, 12, 12, 0.658);
+    width: 1820px;
+    height: 600px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.img{
+    border: 5px solid black;
+}
+
+.disco{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.disco1{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+.legenda{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.chat{
+    position: sticky;
+    margin-left: 1770px;
+    top: 10px;
+}
+
+.letras-musicas{
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    background-color: rgba(241, 12, 12, 0.658);
+    width: 1820px;
+    height: 600px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.letra1, .letra2, .letra3, .letra4{
+    display: inline-block;
+    background-color: grey;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.clipes iframe{
+    display:inline-block;
+    align-items: center;
+    align-content: space-around;
+    color: red;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ .clipes{
+    text-align: center;
+    background-color: rgba(241, 12, 12, 0.658);
+    border-radius: 20px;
+    width: 1820px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+
+ .link{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    margin-left: 10px;
+ }

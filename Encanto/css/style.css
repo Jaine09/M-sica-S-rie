@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.banner{
+    background-image: url(../img/encanto.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1900px;
+    height: 966px;
+    
+}
+
+.sinopse{
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    font-family: 'Cabin', sans-serif;
+}
+
+.info{
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px ;
+    float: right;
+    font-family: 'Cabin', sans-serif;
+}
+
+.sinopse, .info, #img{
+    display: inline-block;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+#img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 500px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#fala2, #fala3{   
+    display: inline-block;
+}
+#fala2{
+    margin-top: 50px;
+    margin-left: 700px;
+    position: relative;
+    right: 300px;
+}
+#fala3{
+    margin-left: 700px;
+    position: relative;
+    right: 250px;
+}
+
+.balao-img{
+    position: absolute;
+}
+.texto{
+    position: absolute;
+    left: 250px;
+    top: 135px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+
+}
+
+.diretores{
+    display: inline-block;
+    margin-top: 500px;
+}
+#byron{
+    margin-left: 500px;
+}
+#jared{
+    margin-left: 200px;
+}
+#nome-diretor1{
+    font-weight: bolder;
+}
+#nome-diretor2{
+    font-weight: bolder;
+}
+
+#melhores-falas{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.trailler{
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.voltar{
+     text-decoration: none;
+     color: aliceblue;
+     font-size: large;
+
+}
+
+.estrela{
+    height: 50px;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+
+.chat{
+    position: sticky;
+    margin-left: 1770px;
+    top: 10px;
+}
+
+.titulo-diretores{
+    margin-left: 900px;
+}
+
+.video{
+    text-align: center;
+}
+
+.trailler iframe{
+    align-items: center;
+    align-content: space-around;
+}
