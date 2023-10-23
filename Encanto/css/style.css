@@ -132,6 +132,9 @@
 }
 
 .trailler iframe{
-    align-items: center;
-    align-content: space-around;
+    
+}
+#video{
+    text-align: center;
+   margin-right:  610px;
 }
