@@ -76,6 +76,7 @@
 .balao-img{
     position: absolute;
 }
+
 .texto{
     position: absolute;
     left: 250px;
@@ -85,14 +86,29 @@
     font-size: medium;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-
 }
+
 .container-falas{
     width: 100%;
     height: 600px;
     margin: 50px 0px;
+    position: relative;
+    
+}
+#fala2, #fala3{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+}
+#fala2{
+    margin-left: 650px;
+    margin-right: 70px;
 }
 
+#byron{
+    margin-left: 650px;
+    margin-right: 70px;
+}
 
 body{
     display: flex;
