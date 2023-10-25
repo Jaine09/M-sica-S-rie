@@ -6,10 +6,11 @@
     background-image: url(../img/encanto.jpg);
     background-position: center;
     background-size: cover;
-    width: 1900px;
+    width: 1970px;
     height: 966px;
     
 }
+
 
 .sinopse{
     background-color: green;
@@ -66,10 +67,10 @@
 }
 #fala2 p{
     padding: 25%;
-    color: black;
+    color: aliceblue;
 }
 #fala3 p{
-    color: black;
+    color: aliceblue;
     padding: 25%;
 }
 
@@ -89,10 +90,10 @@
 }
 
 .container-falas{
-    width: 100%;
     height: 600px;
-    margin: 50px 0px;
+    margin-top: 50px;
     position: relative;
+    border: 10px solid darkseagreen;
     
 }
 #fala2, #fala3{
@@ -105,9 +106,68 @@
     margin-right: 70px;
 }
 
+.sticks{
+    position: sticky;
+    top: 10px;
+}
+
+.diretores{
+ border: 10px solid darkseagreen;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+
 #byron{
     margin-left: 650px;
     margin-right: 70px;
+}
+
+.legenda{
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.trailler{
+    text-align: center;
+    border: 10px solid darkseagreen;
+    margin-top: 50px;
+}
+
+.chat{
+    text-align: right;
+}
+
+.estrela{
+    width: 60px;
+    height: 60px;
+    font-size: x-large;
+    color: aliceblue;
+    position: sticky;
+    top: 10px;
+    text-align: left;
+}
+
+.melhores-musicas{
+    border: 10px solid darkseagreen;
+    text-align: center;
+}
+
+.melhores-musicas iframe{
+    margin: 10px;
+    margin-bottom: 50px;
+    border: 2px solid darkcyan;
+}
+
+.voltar{
+    color: aliceblue;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
 }
 
 body{

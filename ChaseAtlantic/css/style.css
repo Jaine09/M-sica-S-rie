@@ -8,6 +8,7 @@
     background-size: cover;
     width: 556px;
     height: 500px;
+    text-align: center;
 }
 
 .banner2-left, .banner2-right{
@@ -19,11 +20,11 @@
 }
 
 .banner2-left{
-    margin-left: 5px;
+    margin-left: 50px;
 }
 
 .banner2-right{
-    margin-right: 5px;
+    margin-right: 50px;
 }
 
 .banner, .banner2-left , .banner2-right{
@@ -37,16 +38,17 @@
     background-color: rgba(241, 12, 12, 0.658);
     font-style: italic;
     border: 2px;
-    width: 1820px;
+    width: 1830px;
     height: 500px;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 10px;
     margin-right: 10px;
 }
 
 .imagem-banda{
     border-radius: 20px;
+    text-align: center;
 }
 
 .discografia{
@@ -58,8 +60,8 @@
     width: 1820px;
     height: 600px;
     margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     border-radius: 10px;
 }
 
@@ -91,7 +93,7 @@
 
 .chat{
     position: sticky;
-    margin-left: 1770px;
+    margin-left: 1830px;
     top: 10px;
 }
 
@@ -104,8 +106,8 @@
     width: 1820px;
     height: 600px;
     margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
     border-radius: 10px;
 }
 
@@ -136,14 +138,14 @@
     border-radius: 20px;
     width: 1820px;
     height: 400px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
  }
 
  .link{
-    text-decoration: none;
-    color: white;
+    color: aliceblue;
     font-size: x-large;
-    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
  }
